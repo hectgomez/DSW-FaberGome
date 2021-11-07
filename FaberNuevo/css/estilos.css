@@ -1,0 +1,23 @@
+header{
+    background-color: rgb(183, 187, 144);
+    color: rgb(129, 111, 88);
+    text-align: center;
+}
+nav{
+    background-color: floralwhite;
+}
+section{
+    background-color: rgb(92, 177, 226);
+    grid-column: 1/4;
+}
+aside{
+    background-color: rgb(141, 104, 104);
+    grid-column: 4/5;
+}
+footer{
+    background-color: rgb(196, 182, 202);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
